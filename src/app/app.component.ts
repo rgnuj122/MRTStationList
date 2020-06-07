@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// Constant
+import { stationList } from './station-list.const';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MRTStationList';
+  /**
+  * 所有列車到站站名之資料
+  *
+  * @memberof AppComponent
+  */
+  list = stationList;
+
 }

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MRTStationList"
+    }
+  },
+  "defaultProject": "MRTStationList",
+  "cli": {
+    "analytics": false
+  }
 }
